@@ -20,7 +20,10 @@ const Greeting = () => {
   }
   if (message) {
     return (
-      <div>{ message }</div>
+      <div>
+        <h1>Greetings</h1>
+        <p>{ message }</p>
+      </div>
     );
   }
   return <p>No messages found.</p>;
